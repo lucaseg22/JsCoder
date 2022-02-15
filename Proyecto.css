@@ -1,0 +1,127 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: "libre franklin";    
+}
+body {
+        background: rgb(2,0,36);
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,20,1) 35%, rgba(255,206,0,1) 100%);
+        height: 90rem;
+}
+.contador {
+        background-color: rgb(236, 126, 144);
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        float: right;
+        margin-left: 8px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        
+}
+.intro {
+        @media only screen and (max-width:600px)
+}
+h2 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: white;
+    text-align: Center;
+}
+h3 { 
+    color: white;
+}
+.subtitulo {
+            text-align: center;
+            margin-top: 2rem;
+            font-weight: 400;
+}
+.Productos {
+            margin-top: 1rem;
+            padding: 0rem;
+            display: block;
+            justify-content: center;
+            text-align: center;
+            
+}
+#burger {
+        display: inline-block;
+        width: 6rem;
+        color: white;
+}
+#total, #carrito {
+        color: white;
+        margin-left: 1rem;
+}
+.delete {
+        display: inline-block;
+        background-color: rgb(211, 50, 50);
+        font-weight: 900;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 25%;
+        display: inline;
+        margin-left: 0px;
+        box-shadow: 3px 2px black;
+        border: none;
+}
+#comprar {
+        display: inline;
+        margin-left: 10px;
+        background-color:rgb(233, 132, 49);
+        height: 2rem;
+        width: 6rem;
+        border-radius: 10%;
+        box-shadow: 3px 2px black;
+        border:none;
+        
+}
+#comprar:hover{
+        background-color:rgb(219, 111, 22);
+}
+.card {
+        display: inline-flex;
+        margin: 2rem;
+        width: 18rem;
+        height: 30rem;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+        background-color: rgba(0, 0, 0, 0.6) !important;
+        
+}
+.card img {
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        border-radius: 5%;
+}
+footer {
+        padding: 0;
+        height: 3rem;
+        width: 100%;
+        color: black;
+        
+}
+footer p {
+            text-align: center;
+            text-decoration: underline;
+            padding: 0.5rem;
+            font-weight: 800;
+}
+
+input, button {
+        background-color: yellow;
+        display: inline-block;
+        margin-left: 1rem;
+        color: black;
+        font-weight: 900;
+        border-radius: 5%;
+        box-shadow: 2px 2px black;
+        text-align: center;
+        
+}
+input::placeholder{
+        font-weight: 900;
+        color: black;
+}

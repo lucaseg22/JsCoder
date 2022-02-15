@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Bronx",
+        "ingredientes":"Lechuga, tomate, cebolla",
+        "precio": "900",
+        "imagen":"./img/Bronx.jpg"
+    },
+    {
+        "nombre": "Queens",
+        "ingredientes":"Cebolla, cheddar, barbacoa",
+        "precio": "800",
+        "imagen":"./img/Queens.jpg"
+    },
+    {
+        "nombre": "Detroit",
+        "ingredientes":"Panceta, barbacoa, cheddar",
+        "precio": "1050",
+        "imagen":"./img/Detroit.jpg"
+    },
+    {
+        "nombre": "Manhattan",
+        "ingredientes":"Aros de cebolla, bondiola, lechuga",
+        "precio": "1200",
+        "imagen":"./img/Manhattan.jpg"
+    }
+]
