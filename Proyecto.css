@@ -6,7 +6,21 @@
 body {
         background: rgb(2,0,36);
         background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,20,1) 35%, rgba(255,206,0,1) 100%);
-        height: 90rem;
+        height: 95rem;
+}
+nav {
+        height: 5rem;
+}
+.nav_carrito {
+        list-style: none;
+        text-decoration: none;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 2rem;
+        margin-right: 5rem;
+}
+#navbarDropdown{
+        color: white;
 }
 .contador {
         background-color: rgb(236, 126, 144);
@@ -20,9 +34,7 @@ body {
         font-weight: 600;
         
 }
-.intro {
-        @media only screen and (max-width:600px)
-}
+
 h2 {
     margin-top: 2rem;
     margin-left: 1rem;
